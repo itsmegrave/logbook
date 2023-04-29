@@ -60,7 +60,7 @@ defaults:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "itsmegrave"
+    shortname: "logbook-3"
   # provider: 'giscus'
   # giscus:
   #   repo_id: 'R_kgDOJc94Ug' # Shown during giscus setup at https://giscus.app
