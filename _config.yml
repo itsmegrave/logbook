@@ -58,14 +58,17 @@ defaults:
       comments: true
 
 comments:
-  provider: 'giscus'
-  giscus:
-    repo_id: 'R_kgDOJc94Ug' # Shown during giscus setup at https://giscus.app
-    category_name: 'General' # Full text name of the category
-    category_id: 'DIC_kwDOJc94Us4CWJfd' # Shown during giscus setup at https://giscus.app
-    # discussion_term: # "pathname" (default), "url", "title", "og:title"
-    # reactions_enabled: # '1' for enabled (default), '0' for disabled
-    theme: 'dark_dimmed' # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  provider: "disqus"
+  disqus:
+    shortname: "itsmegrave"
+  # provider: 'giscus'
+  # giscus:
+  #   repo_id: 'R_kgDOJc94Ug' # Shown during giscus setup at https://giscus.app
+  #   category_name: 'General' # Full text name of the category
+  #   category_id: 'DIC_kwDOJc94Us4CWJfd' # Shown during giscus setup at https://giscus.app
+  #   # discussion_term: # "pathname" (default), "url", "title", "og:title"
+  #   # reactions_enabled: # '1' for enabled (default), '0' for disabled
+  #   theme: 'dark_dimmed' # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
